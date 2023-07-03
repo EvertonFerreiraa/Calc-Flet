@@ -5,11 +5,8 @@ from calc import Calculadora
 
 def main(page: ft.Page):
     page.title = 'Calculadora-python'
-    page.window_resizable = False
-    page.window_full_screen = False
     page.window_width = 350
     page.window_height = 550
-    page.window_maximizable = False
 
     def button_clicked(e):
         data = e.control.data
